@@ -1,0 +1,312 @@
+
+
+
+.text{
+    color: black, ;
+}
+
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+  body{
+    
+    color: white;
+
+  }
+  .headerr{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+  }
+     #logo{
+        font-size: 25px;
+        color: aliceblue;
+        text-decoration: none;
+        font-weight: 600;
+
+     }
+     #navbar a{
+        font-size: 18px;
+        color:white;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+        transition: .3s;
+        
+
+     }
+     #navbar a:hover , #navbar a#homi{
+     color: blue;}
+     .home{
+      height: 100vh;
+      background: url(bbb.jpg) no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      padding: 0 10%;
+     }
+     .home-content{
+      
+      max-width: 600px;
+     }
+     .home-content h1{
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 1.2;
+
+     }
+     .home-content h3{
+      font-size: 32px;
+      font-weight: 700;
+      color: rgb(37, 84, 142);
+
+     }
+     .home-content p{
+      font-size: 16px;
+      margin: 20px 0 40px;
+
+     }
+     .home-content .btn-box{
+      display: flex;
+      justify-content: space-between;
+      width: 345px;
+      height: 50px;
+     
+     }
+    .btn-box a{
+      overflow: hidden;
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 150px;
+      height: 100%;
+      background: blue;
+      border: 2px solid blue;
+      border-radius: 8px;
+      font-size: 19px;
+      color: black;
+      text-decoration: none;
+      font-weight: 600px;
+      letter-spacing: 1px;
+      z-index: 1;
+
+
+    }
+    .btn-box a:nth-child(2){
+      background-color: transparent;
+      color: blue;
+    }
+    
+
+
+
+
+
+    .btn-box a::before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background:rgb(37, 84, 142);
+      z-index: -1;
+      transition: .5s;
+    }
+    .btn-box a:hover::before{
+        width: 100%;
+
+
+    }
+    .home-sci{
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      bottom: 40px;
+      width: 170px;
+    
+    }
+    .home-sci a{
+      justify-content: center;
+      align-items: center;
+      display: inline-flex;
+      width: 40px;
+      height: 40px;
+      background-color: transparent;
+      border: 2px solid blue;
+      border-radius: 50%;
+      font-size: 20px;
+      color: aqua;
+      text-decoration: none;
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+      
+    }
+    .home-sci a::before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: red;
+      z-index: -1;
+      transition: .5S;
+    }
+    .home-sci a:hover::before{
+      width: 100%;
+    }
+
+    .bbody{
+    background-color:#081B29 ;
+    margin-top: 300px;
+
+
+
+
+    }
+     .imaa{
+      margin-top: 80px;
+      margin-left: 550px;
+     }
+
+
+    
+
+      
+
+    
+    .imaa img{
+      height: 300px;
+      width: 300px;
+      border-radius: 50%;
+       border: 10px solid blue;
+       
+    }
+    .opentext{
+      margin-left: 630px;
+     
+    }
+    .opentext strong{
+      color: darkkhaki ;
+    }
+    .ddd{
+      margin-top: 40px;
+      margin-left: 75px;
+    }
+    .content{
+      
+      max-width: 1000px;
+      margin-left: 200px;
+      justify-content: space-between;
+      margin-top: 30px
+      ;
+    }
+
+    .spiner {
+
+      background-color: brown;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      border: 25px solid white;
+      border-top: 20px solid indigo;
+      animation: ani 2.5s linear infinite;
+      margin: auto;
+      margin-top: 300px;
+      tex
+    animation-direction: ;
+    }
+    @keyframes ani{
+to{
+transform: rotate:(360deg);
+}
+    }
+    #bxcontainer{
+      background-color: brown;
+      height: 700px;
+      width: 500px;
+      margin: auto;
+      margin-top: 70px;
+      border-radius: 25px;
+      box-shadow: 10px 10px 10px 10px;
+      text-align: center;
+      animation-name: colors;
+      animation-duration: 3s;
+      animation-timing-function: ;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+
+    }
+    #chat{
+      margin-top: 100px;
+      margin-bottom: 50px;
+      
+    }
+    #numbar{
+      width: 350px;
+      margin-top: 25px;
+      height: 40px;
+      border-radius: 25px;
+      padding-left: 35px;
+      margin-bottom: 30px;
+      
+    }
+    @keyframes colors{
+     0%{background-color: #081B29;}
+      50%{background-color: chartreuse;}
+      100%{background-color:purple ;}
+    }
+    .btnbtn a{
+      overflow: hidden;
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      height: 50px;
+      background: rgb(15, 255, 15);
+      /* border: 2px solid blue; */
+      border-radius: 8px;
+      font-size: 19px;
+      color: black;
+      text-decoration: none;
+      font-weight: 600px;
+      letter-spacing: 1px;
+      z-index: 1;
+      border-radius: 25px;
+      margin-bottom: 25px;
+    }
+    /* #qr{
+      height: 50%;
+    } */
+       
+    
+   
+     
+    
+
+
+     
+    
+     
+  
+  
+
+
+    
