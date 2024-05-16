@@ -251,8 +251,18 @@ transform: rotate:(360deg);
       animation-timing-function: ;
       animation-iteration-count: infinite;
       animation-direction: alternate;
+     
 
     }
+       
+       @media screen and (max-width:400px) {
+        #bxcontainer{
+          width: 300px;
+          
+        }
+       }
+
+
     #chat{
       margin-top: 100px;
       margin-bottom: 50px;
@@ -295,8 +305,192 @@ transform: rotate:(360deg);
     /* #qr{
       height: 50%;
     } */
+       #adformcontainer{
+        background-color: white;
+        height: 650px;
+        width: 500px;
+        color: black;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        
+        
+       }
+       #wholeform{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        box-shadow: 10px 10px 10px 10px;
+        width: fit-content;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 100px;
+        
+        
+       }
+       #imgg{
+        height: 650px;
+        width: fit-content;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        
+        
+       }
+       #img2{
+        height: 40px;
+        margin-top: ;
+       }
+       #hed{
+        margin-left: 50px;
+        margin-top: 20px;
+       }
+       #formbtn1b{
+        display: flex;
+      justify-content: space-between;
+      width: 345px;
+      height: 50px;
+       }
+       #formbtn1b a{
+        overflow: hidden;
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: fit-content;
+        background: #EBEDEC;
        
-    
+        border-radius: 8px;
+        font-size: 19px;
+        color: black;
+        text-decoration: none;
+        font-weight: 600px;
+        letter-spacing: 1px;
+        z-index: 1;
+        margin-right: 20px;
+  
+       }
+       #formbtn1c a{
+        overflow: hidden;
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: fit-content;
+        background: #EBEDEC;
+      
+        border-radius: 8px;
+        font-size: 19px;
+        color: black;
+        text-decoration: none;
+        font-weight: 600px;
+        letter-spacing: 1px;
+        z-index: 1;
+        margin-right: 20px;
+        
+  
+       }
+       #formbtn1d a{
+        overflow: hidden;
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: fit-content;
+        background: #EBEDEC;
+       
+        border-radius: 8px;
+        font-size: 19px;
+        color: black;
+        text-decoration: none;
+        font-weight: 600px;
+        letter-spacing: 1px;
+        z-index: 1;
+        margin-right: 200px;
+  
+       }
+       #content{
+        margin-left: 40px;
+       }
+       .buttonss{
+        justify-content: space-between;
+        margin-top: 10px;
+       }
+       hr{
+        width: 180px;
+        height: 0px;
+        margin: auto;
+       }
+       .hrr{
+        display: flex;
+        margin-top: 10px;
+        
+       }
+       #loin{
+        margin-top: 40px;
+        color: #038838;
+      
+       }
+       #signbtn{
+        margin-top: 40px;
+        width: 70px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: #038838;
+        border-width: 0px;
+        color: white;
+       }
+       #terms{
+        margin-top: 20px;
+        color: #038838;
+       }
+#fullnamee{
+margin-top: 30px;
+color: #038838;
+}
+
+#emal{
+margin-top: 10px;
+color: #038838;
+}
+#passwod{
+ margin-top: 10px;
+ color: #038838;
+}
+.inps{
+  width: 440px;
+  border-radius: 10px;
+  background-color: #EBEDEC;
+  height: 25px;
+  border-width: 0px;
+  padding-left: 10px;
+}
+.an{
+  color: #038838;
+}
+
+  #imggc{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  /* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+
+
+
    
      
     
