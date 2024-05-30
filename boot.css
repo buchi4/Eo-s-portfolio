@@ -12,10 +12,10 @@
 
 @keyframes anima{
     0%{background-color: rgb(54, 46, 46);}
-    25%{background-color:rgb(124, 51, 55);}
-    50%{background-color: rgb(251, 74, 74);}
-    75%{background-color: rgba(90, 41, 41, 0.953);}
-    100%{background-color: rgb(62, 27, 27);}
+    25%{background-color:rgb(111, 23, 133);}
+    50%{background-color: rgb(80, 0, 120);}
+    75%{background-color: rgba(34, 16, 53, 0.953);}
+    100%{background-color: rgb(50, 0, 130);}
 }
 
 
