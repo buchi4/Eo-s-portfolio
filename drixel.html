@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drixel | Code. Create. Captivate.</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+  />
+  <style>
+    body {
+      background-color: #0f172a;
+      color: #e2e8f0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      position: relative;
+      padding: 100px 0;
+      text-align: center;
+      background: rgba(15, 23, 42, 0.9);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: #38bdf8;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      color: #cbd5e1;
+    }
+    .btn-custom {
+      background-color: #38bdf8;
+      color: #0f172a;
+      border: none;
+    }
+    .section-title {
+      color: #38bdf8;
+      margin-bottom: 20px;
+    }
+    .service-box {
+      border: 1px solid #38bdf8;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      background-color: #1e293b;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service-box:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
+    }
+    footer {
+      background-color: #1e293b;
+      padding: 20px 0;
+      text-align: center;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero" data-aos="fade-up">
+    <div class="container">
+      <h1>Drixel</h1>
+      <p>Code. Create. Captivate.</p>
+      <a href="#contact" class="btn btn-custom mt-4">Let's Work Together</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="container py-5" id="about" data-aos="fade-up">
+    <h2 class="section-title">About Us</h2>
+    <p>Drixel is a creative tech brand specializing in modern web development, elegant web design, and professional graphic design. We bring ideas to life through clean code and artistic visuals.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="container py-5" id="services" data-aos="fade-up">
+    <h2 class="section-title">Our Services</h2>
+    <div class="row">
+      <div class="col-md-4 service-box" data-aos="fade-right">
+        <h5>Web Development</h5>
+        <p>Responsive and dynamic websites built with clean, efficient code.</p>
+      </div>
+      <div class="col-md-4 service-box" data-aos="fade-up">
+        <h5>Web Design</h5>
+        <p>User-focused designs that are both functional and visually engaging.</p>
+      </div>
+      <div class="col-md-4 service-box" data-aos="fade-left">
+        <h5>Graphics Design</h5>
+        <p>Logos, flyers, and visual branding that captivate and communicate clearly.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="container py-5" id="contact" data-aos="fade-up">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: edrickokocha774@gmail.com</p>
+    <p>Phone: +234 916 288 3867</p>
+    <p>Follow us: @drixel_creative</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Drixel. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
